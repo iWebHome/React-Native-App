@@ -17,7 +17,7 @@ var {
   AppRegistry,
   Image,
   TextInput,
-  StatusBarIOS,
+  StatusBar,
   ScrollView,
   TouchableHighlight,
   ActivityIndicatorIOS,
@@ -26,7 +26,8 @@ var {
 } = React;
 
 
-StatusBarIOS.setStyle('light-content');
+// StatusBarIOS.setStyle('light-content');
+StatusBar.setBarStyle('light-content');
 var Address =  React.createClass({
   statics: {
     title: '主页',
